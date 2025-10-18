@@ -57,7 +57,7 @@ function joc() {
 let lightOn = false;
 function light() {
     if(!lightOn) {
-    document.body.style.backgroundColor = "#818589";
+    document.body.style.backgroundColor = "gray";
     document.body.style.color = "black";
     lightOn = true;
     }
@@ -67,5 +67,6 @@ function light() {
     lightOn = false;
     }
 }
+
 
 
