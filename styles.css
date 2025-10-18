@@ -1,0 +1,161 @@
+body {
+    background: #020024;
+    color: white;
+}
+h2 {
+    font-size: 2.5em;
+}
+#container {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#rock {
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(57, 76, 250);
+    color: white;
+    border: none;
+
+}
+#paper {
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #394cfa;
+    color: white;
+    border: none;
+}
+#scissors {
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(57, 76, 250);
+    color: white;
+    border: none;
+}
+#scissors:hover {
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(36, 46, 133);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#paper:hover {
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(36, 46, 133);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#rock:hover {
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(36, 46, 133);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#rock:active {
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(36, 46, 133);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#paper:active {
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(36, 46, 133);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#scissors:active {
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(36, 46, 133);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.scor-jucator {
+    color: #394cfa;
+}
+.scor-calculator {
+    color: #394cfa;
+}
+
+#reset {
+    padding: 20px 40px;
+    border-radius: 20px;
+    background-color: #394cfa;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+#reset:hover {
+    padding: 20px 40px;
+    border-radius: 20px;
+    background-color: rgb(36, 46, 133);
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.alegere-jucator {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+.alegere-calculator {
+    color: #ec0c0c;
+    font-weight: bold;
+}
+
+.win {
+    color: #76FF03;
+    text-shadow: 0px -1px 20px rgb(9, 255, 0);
+}
+.lose {
+    color: #FF3D00;
+    text-shadow: 0px -1px 20px rgb(255, 38, 0);
+}
+.egalitate {
+    color: yellow;
+    text-shadow: 0px -1px 20px rgb(255, 251, 0);
+}
+
+#light {
+    padding: 20px 30px;
+    background: transparent;
+    border: none;
+    font-size: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
