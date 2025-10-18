@@ -23,7 +23,7 @@ return alegerePC;
 }
 function comparareAlegeri() {
     if(alegereJucator === alegereCalculator) {
-        document.getElementById("h2").innerHTML = '<span class="egalitate">Draw</span>';
+        document.getElementById("h2").innerHTML = '<span class="egalitate">Tie</span>';
     }
     else if ( (alegereJucator === alegeri[0] && alegereCalculator === alegeri[1]) || (alegereJucator === alegeri[1] && alegereCalculator === alegeri[2]) || (alegereJucator === alegeri[2] && alegereCalculator === alegeri[0])) 
      { document.getElementById("h2").innerHTML = `<span class= "win">You Won!</span>`;
@@ -67,3 +67,4 @@ function light() {
     lightOn = false;
     }
 }
+
